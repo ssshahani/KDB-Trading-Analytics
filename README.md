@@ -157,15 +157,6 @@ update ma20:mavg[20;close], ma50:mavg[50;close] by sym from dailyOHLC
 select sym, vol20:dev ret, annVol:(dev ret)*sqrt 252.0 by sym from returns
 ```
 
-## What This Demonstrates to Interviewers
-
-1. **You understand tick architecture** — not just queries, but how data flows from exchange to database
-2. **You can write production-quality Q** — functions with parameters, error handling, logging
-3. **You know the joins** — aj for TCA, lj for reference enrichment, wj for windowed analytics
-4. **You understand storage** — partitioning, enumeration, splayed tables, sym files
-5. **You can translate business questions to code** — VWAP, TCA, risk, alerts are all real trading desk tools
-6. **You built something end-to-end** — not just isolated queries, but a complete system
-
 ## Technologies
 
 - **KDB+ 4.0** — Column-oriented time-series database
