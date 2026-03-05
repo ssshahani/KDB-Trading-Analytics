@@ -1,0 +1,27 @@
+# KDB+ database files
+
+# db/
+# data/raw/
+# data/processed/
+
+# KDB+ temp files
+*.q~
+*.q.bak
+
+# Tickerplant logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
