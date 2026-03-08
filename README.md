@@ -164,14 +164,6 @@ select sym, vol20:dev ret, annVol:(dev ret)*sqrt 252.0 by sym from returns
 - **Python** — Data acquisition (yfinance)
 - **Git** — Version control
 
-## License
-
-MIT — Free to use for learning and portfolio purposes.
-
-## Author
-
-[Your Name] — Aspiring Business Analyst | Trading Technology
-
 ---
 
 *Built as a portfolio project demonstrating KDB+/Q proficiency for front office trading roles.*
