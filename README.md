@@ -165,5 +165,3 @@ select sym, vol20:dev ret, annVol:(dev ret)*sqrt 252.0 by sym from returns
 - **Git** — Version control
 
 ---
-
-*Built as a portfolio project demonstrating KDB+/Q proficiency for front office trading roles.*
